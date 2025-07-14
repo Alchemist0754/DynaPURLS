@@ -1,0 +1,33 @@
+# Basic arguments
+work_dir: '/home/klein/PURLS/work_dir/purls_5r4'
+
+# Processor
+gpus: 1
+num_epoch: 50
+
+# Debug
+seed: 5
+eval_interval: 1
+
+# Data
+root: '/home/klein/PURLS/synse_resources'
+root2: '/home/klein/PURLS/random'
+dataset: 'shift_5_r4' # Path to the generated visual features
+dataloader: 'ntu_60'
+split: 5
+data_type: 'full'
+
+# Model
+model_name: 'purls'
+lr: 1e-4
+model_args:
+  input_size: 256
+  hidden_size: 512
+  output_size: 100
+  emb_dim: 512
+  n_hidden_layers: 0
+
+# Ablation
+activate_train: True
+test_p: False
+resume: False 
