@@ -1,17 +1,6 @@
 # DynaPURLS
 
-## TODOs
-- Docs for:
-  - Prerequisites
-  - Demo
-  - Data Preparation
-  - Testing Pre-trained Models
-  - Training
-  - Citation
-- Codes for:
-  - Basic organization and transplantation from implemented codes
-  - Pre-trained model data
-  - Data preprocess
+
 
 ## Prerequisites
 - Installation
